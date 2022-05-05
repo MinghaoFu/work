@@ -4,7 +4,7 @@ import data
 import model
 import loss
 import os
-from option import args    # 参数设置
+from option import args    # arugments
 from trainer import Trainer
 
 torch.manual_seed(args.seed)
